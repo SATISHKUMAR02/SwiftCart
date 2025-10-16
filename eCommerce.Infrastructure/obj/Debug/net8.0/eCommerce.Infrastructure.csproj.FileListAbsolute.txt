@@ -13,3 +13,4 @@ C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerce
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Infrastructure\obj\Debug\net8.0\refint\eCommerce.Infrastructure.dll
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Infrastructure\obj\Debug\net8.0\eCommerce.Infrastructure.pdb
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Infrastructure\obj\Debug\net8.0\ref\eCommerce.Infrastructure.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Infrastructure\obj\Debug\net8.0\eCommerce.Infrastructure.sourcelink.json

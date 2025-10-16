@@ -10,3 +10,4 @@ C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerce
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Core\obj\Debug\net8.0\refint\eCommerce.Core.dll
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.pdb
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Core\obj\Debug\net8.0\ref\eCommerce.Core.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.Core\obj\Debug\net8.0\eCommerce.Core.sourcelink.json

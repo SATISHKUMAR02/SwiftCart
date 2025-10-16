@@ -59,19 +59,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.0.1, )"
+              "version": "[12.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.21.0, )"
             }
           },
           "imports": [
@@ -145,11 +137,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.0.1, )"
+              "version": "[12.0.1, )"
             },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[12.0.1, )"
             }
           },
           "imports": [
@@ -222,9 +214,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             },
             "Npgsql": {
               "target": "Package",

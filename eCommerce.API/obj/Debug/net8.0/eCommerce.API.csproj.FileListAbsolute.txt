@@ -35,7 +35,8 @@ C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerce
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\eCommerce.Infrastructure.pdb
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\obj\Debug\net8.0\eCommerc.1EFE0F2B.Up2Date
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Dapper.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Npgsql.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\obj\Debug\net8.0\eCommerce.API.sourcelink.json
