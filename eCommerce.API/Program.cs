@@ -5,6 +5,7 @@ using eCommerce.Core;
 using eCommerce.API.Middlewares;
 using System.Text.Json.Serialization;
 using eCommerce.Core.Mapping;
+using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 
 
@@ -22,6 +23,21 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 
 //builder.Services.AddAutoMapper(typeof(ApplicationUserMappingProfile).Assembly);
 builder.Services.AddAutoMapper(typeof(ApplicationUserMappingProfile).Assembly);
+
+// enabling fluent validations
+//builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
 //builder.Services.AddAutoMapper(typeof(ApplicationUserMappingProfile));
 var app = builder.Build();
 
@@ -30,7 +46,9 @@ app.UseExceptionHandling();
 app.UseRouting();
 // enable authentication
 app.UseAuthorization();
-
+app.UseSwagger(); // ===============================> to add swagger
+app.UseSwaggerUI();
+app.UseCors();
 // enable authorization
 app.UseAuthorization();
 // enable map controllers

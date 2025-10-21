@@ -40,3 +40,11 @@ C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerce
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Npgsql.dll
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\obj\Debug\net8.0\eCommerce.API.sourcelink.json
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSolution.UserService\eCommerce.API\obj\Debug\net8.0\eCommerce.API.MvcApplicationPartsAssemblyInfo.cs
