@@ -1,0 +1,15 @@
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\bin\Debug\net8.0\BusinesslogicLayer.deps.json
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\bin\Debug\net8.0\BusinesslogicLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\bin\Debug\net8.0\BusinesslogicLayer.pdb
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.csproj.AssemblyReference.cache
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.AssemblyInfoInputs.cache
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.AssemblyInfo.cs
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\Business.3F6F6B1B.Up2Date
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\refint\BusinesslogicLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\BusinesslogicLayer.pdb
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\Microservices\eCommerceSoultion.ProductsService\BusinesslogicLayer\obj\Debug\net8.0\ref\BusinesslogicLayer.dll
