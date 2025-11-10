@@ -20,7 +20,13 @@ namespace DataAccessLayer
                 .Replace("$MSSQL_PASSWORD", Environment.GetEnvironmentVariable("MSSQL_PASSWORD"));
             services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseSqlServer(connectionstring,sqlServerOptions => sqlServerOptions.EnableRetryOnFailure());
+                options.UseSqlServer(connectionstring,sqlServerOptions => sqlServerOptions.EnableRetryOnFailure(
+                    
+                    maxRetryCount:5,
+                    maxRetryDelay:TimeSpan.FromSeconds(10),
+                    errorNumbersToAdd:null
+                    
+                    ));
             });
             services.AddScoped<IProductsRepository, ProductsRepository>();
             return services;

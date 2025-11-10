@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|solutionrelative:productsservice.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|solutionrelative:productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\productsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|solutionrelative:productsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33FEA421-3346-47C3-9325-4384EF67F82C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\dataaccesslayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33FEA421-3346-47C3-9325-4384EF67F82C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33FEA421-3346-47C3-9325-4384EF67F82C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\dataaccesslayer\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33FEA421-3346-47C3-9325-4384EF67F82C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|solutionrelative:productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\productsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|solutionrelative:productsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87C04BB7-56FC-4851-9DA7-A6C45B0BFF2A}|ProductsService.API\\ProductsService.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesoultion.productsservice\\productsservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProductsService.API\\Properties\\launchSettings.json",
@@ -146,19 +146,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductsService.API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductsService.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwEAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:01:33.784Z"
+              "WhenOpened": "2025-10-24T07:01:33.784Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\DataAccessLayer\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Context\\ApplicationDbContext.cs",
@@ -170,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\DataAccessLayer\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DependencyInjection.cs",
@@ -178,18 +179,17 @@
               "RelativeToolTip": "DataAccessLayer\\DependencyInjection.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T06:12:19.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T06:12:19.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\appsettings.json",
               "RelativeDocumentMoniker": "ProductsService.API\\appsettings.json",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\appsettings.json",
               "RelativeToolTip": "ProductsService.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-22T18:28:13.959Z"
             },
@@ -201,7 +201,7 @@
               "RelativeDocumentMoniker": "ProductsService.API\\Dockerfile",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\Dockerfile",
               "RelativeToolTip": "ProductsService.API\\Dockerfile",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwB0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-10-28T17:39:09.434Z",
               "EditorCaption": ""
