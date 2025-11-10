@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.API", "eCommerce.API\eCommerce.API.csproj", "{83B00C06-62D2-47F5-B78E-608B3D828794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Infrastructure", "eCommerce.Infrastructure\eCommerce.Infrastructure.csproj", "{D8036034-DA96-45BD-9D65-41C409F3EF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Core", "eCommerce.Core\eCommerce.Core.csproj", "{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83B00C06-62D2-47F5-B78E-608B3D828794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B00C06-62D2-47F5-B78E-608B3D828794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B00C06-62D2-47F5-B78E-608B3D828794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B00C06-62D2-47F5-B78E-608B3D828794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8036034-DA96-45BD-9D65-41C409F3EF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8036034-DA96-45BD-9D65-41C409F3EF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8036034-DA96-45BD-9D65-41C409F3EF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8036034-DA96-45BD-9D65-41C409F3EF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

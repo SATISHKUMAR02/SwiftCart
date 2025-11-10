@@ -1,0 +1,402 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|solutionrelative:ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8036034-DA96-45BD-9D65-41C409F3EF22}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8036034-DA96-45BD-9D65-41C409F3EF22}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8036034-DA96-45BD-9D65-41C409F3EF22}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.infrastructure\\dbcontext\\dapperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8036034-DA96-45BD-9D65-41C409F3EF22}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\dbcontext\\dapperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\repositorycontracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\repositorycontracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\mapping\\applicationusermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\mapping\\applicationusermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|solutionrelative:ecommerce.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|solutionrelative:ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8036034-DA96-45BD-9D65-41C409F3EF22}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8036034-DA96-45BD-9D65-41C409F3EF22}|eCommerce.Infrastructure\\eCommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\dto\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\dto\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\dto\\genderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\dto\\genderoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\ecommerce.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\ecommerce.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.core\\servicecontracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAEBE4F1-3DE5-4DFD-B0D3-3DA0892E8658}|eCommerce.Core\\eCommerce.Core.csproj|solutionrelative:ecommerce.core\\servicecontracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.api\\middlewares\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|solutionrelative:ecommerce.api\\middlewares\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\microservices\\ecommercesolution.userservice\\ecommerce.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{83B00C06-62D2-47F5-B78E-608B3D828794}|eCommerce.API\\eCommerce.API.csproj|solutionrelative:ecommerce.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 484,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "RelativeToolTip": "eCommerce.Core\\Validators\\LoginRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T19:08:09.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "eCommerce.API\\Program.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Program.cs",
+              "RelativeToolTip": "eCommerce.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:28:25.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "eCommerce.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "eCommerce.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:59:54.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "eCommerce.Core\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:45:22.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DependencyInjection.cs",
+              "RelativeToolTip": "eCommerce.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:29:51.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DapperDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Infrastructure\\DBContext\\DapperDbContext.cs",
+              "RelativeDocumentMoniker": "eCommerce.Infrastructure\\DBContext\\DapperDbContext.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Infrastructure\\DBContext\\DapperDbContext.cs",
+              "RelativeToolTip": "eCommerce.Infrastructure\\DBContext\\DapperDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T18:42:48.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Services\\UserService.cs",
+              "RelativeToolTip": "eCommerce.Core\\Services\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAMBVwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T06:25:56.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\RepositoryContracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\RepositoryContracts\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\RepositoryContracts\\IUserRepository.cs",
+              "RelativeToolTip": "eCommerce.Core\\RepositoryContracts\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:55:44.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUserMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Mapping\\ApplicationUserMappingProfile.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\Mapping\\ApplicationUserMappingProfile.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\Mapping\\ApplicationUserMappingProfile.cs",
+              "RelativeToolTip": "eCommerce.Core\\Mapping\\ApplicationUserMappingProfile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:15:27.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "eCommerce.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "eCommerce.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T07:11:53.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "eCommerce.Core\\DTO\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:48:51.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "eCommerce.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "eCommerce.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:19:09.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\appsettings.json",
+              "RelativeDocumentMoniker": "eCommerce.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\appsettings.json",
+              "RelativeToolTip": "eCommerce.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-13T11:11:08.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "RelativeToolTip": "eCommerce.Core\\DTO\\AuthenticationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:51:53.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "eCommerce.Core\\DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:47:15.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenderOptions.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\GenderOptions.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\DTO\\GenderOptions.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\DTO\\GenderOptions.cs",
+              "RelativeToolTip": "eCommerce.Core\\DTO\\GenderOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T05:50:50.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "eCommerce.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\eCommerce.Core.csproj",
+              "RelativeDocumentMoniker": "eCommerce.Core\\eCommerce.Core.csproj",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\eCommerce.Core.csproj",
+              "RelativeToolTip": "eCommerce.Core\\eCommerce.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-14T06:25:34.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\ServiceContracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "eCommerce.Core\\ServiceContracts\\IUserService.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.Core\\ServiceContracts\\IUserService.cs",
+              "RelativeToolTip": "eCommerce.Core\\ServiceContracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T06:22:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ExceptionHandling.cs",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Middlewares\\ExceptionHandling.cs",
+              "RelativeDocumentMoniker": "eCommerce.API\\Middlewares\\ExceptionHandling.cs",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Middlewares\\ExceptionHandling.cs",
+              "RelativeToolTip": "eCommerce.API\\Middlewares\\ExceptionHandling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:46:25.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Dockerfile",
+              "RelativeDocumentMoniker": "eCommerce.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\Dockerfile",
+              "RelativeToolTip": "eCommerce.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-13T11:10:56.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 74,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+services:
+  mssql-container:
+    container_name: mssql-container
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: root@1234
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./mssql-init:/db-init
+      - ./entrypoint.sh:/entrypoint.sh
+    networks:
+      - ecommerce-network
+    hostname: sqlserver-container
+
+  product-service:
+    container_name: product-service
+    image: satish0212/ecommerce-products-microservice:v1.0
+    environment:
+      MSSQL_HOST: sqlserver-container
+      MSSQL_SA_PASSWORD: root@1234
+    ports:
+      - "8080:8080"
+    networks:
+      - ecommerce-network
+
+  postgres-container:
+    container_name: postgres-container
+    image: postgres:16.1
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=eCommerceUsers
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-init:/docker-entrypoint-initdb.d
+    networks:
+      - ecommerce-network
+  
+  users-microservice:
+    container_name: users-microservice
+    image: satish0212/ecommerce-users-microservice:v1.0
+    environment:
+      - POSTGRES_HOST=postgres-container
+      - POSTGRES_PASSWORD=root
+    ports: 
+      - "9090:9090"
+    networks:
+      - ecommerce-network
+
+networks:
+  ecommerce-network:
+    
