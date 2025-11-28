@@ -1,0 +1,165 @@
+name: dockercompose13774094081908242430
+services:
+  mongodb-container:
+    image: mongo:latest
+    networks:
+      orders-mongodb-network: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27017"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices-essentials\mongodb-init
+        target: /docker-entrypoint-initdb.d
+        bind:
+          create_host_path: true
+  mssql-container:
+    container_name: mssql-container
+    entrypoint:
+      - /bin/bash
+      - /entrypoint.sh
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: root@1234
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      ecommerce-network: null
+      products-mssql-network: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1434"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices-essentials\mssql-init
+        target: /db-init
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices-essentials\entrypoint.sh
+        target: /entrypoint.sh
+        bind:
+          create_host_path: true
+  ordersmicroservice.api:
+    build:
+      context: C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService
+      dockerfile: OrdersMicroservice.API/Dockerfile
+    depends_on:
+      mongodb-container:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      MONGO_HOST: mongodb-container
+      MONGO_PORT: "27017"
+      MONGODB_DATABASE: OrdersDatabase
+      UsersMicroservicePort: "9090"
+      UsersMircorserviceName: users-microservice
+    image: ordersmicroserviceapi
+    networks:
+      ecommerce-network: null
+      orders-mongodb-network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\satis\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\satis\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  postgres-container:
+    environment:
+      POSTGRES_DATABASE: eCommerceUsers
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      ecommerce-network: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5433"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\Microservices-essentials\postgres-init
+        target: /docker-entrypoint-initdb.d
+        bind:
+          create_host_path: true
+  products-microservice:
+    depends_on:
+      mssql-container:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      MSSQL_DATABASE: ProductMicro
+      MSSQL_HOST: mssql-container
+      MSSQL_PASSWORD: root@1234
+      MSSQL_PORT: "1433"
+    image: products-microservice:latest
+    networks:
+      ecommerce-network: null
+      products-mssql-network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "6000"
+        protocol: tcp
+  users-microservice:
+    depends_on:
+      postgres-container:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_HTTP_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      POSTGRES_DATABASE: eCommerceUsers
+      POSTGRES_HOST: postgres-container
+      POSTGRES_PASSWORD: root
+      POSTGRES_PORT: "5432"
+      POSTGRES_USER: postgres
+    image: users-microservice:latest
+    networks:
+      ecommerce-network: null
+      users-postgres-network: null
+    ports:
+      - mode: ingress
+        target: 9090
+        published: "5000"
+        protocol: tcp
+networks:
+  ecommerce-network:
+    name: dockercompose13774094081908242430_ecommerce-network
+    driver: bridge
+  orders-mongodb-network:
+    name: dockercompose13774094081908242430_orders-mongodb-network
+    driver: bridge
+  products-mssql-network:
+    name: dockercompose13774094081908242430_products-mssql-network
+    driver: bridge
+  users-postgres-network:
+    name: dockercompose13774094081908242430_users-postgres-network
+    driver: bridge

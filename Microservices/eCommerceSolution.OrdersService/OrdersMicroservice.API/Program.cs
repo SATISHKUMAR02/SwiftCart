@@ -1,5 +1,6 @@
 
 using BusinessLogicLayer;
+using BusinessLogicLayer.HttpClients;
 using DataAccessLayer;
 using FluentValidation.AspNetCore;
 using OrdersMicroservice.API.Middlewares;
@@ -22,6 +23,17 @@ builder.Services.AddCors(options =>
         builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
+
+// communicating with users microservice
+builder.Services.AddHttpClient<UsersMicroserviceClient>(client =>
+{
+
+    client.BaseAddress = new Uri($"http://{builder.Configuration["UsersMircorserviceName"]}:{builder.Configuration["UsersMicroservicePort"]}");
+
+
+});
+
+
 var app = builder.Build();
 app.UseExceptionHandlingMiddleware();
 app.UseRouting();

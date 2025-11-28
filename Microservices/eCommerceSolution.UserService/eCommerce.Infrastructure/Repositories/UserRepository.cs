@@ -11,7 +11,7 @@ using eCommerce.Infrastructure.DBContext;
 
 namespace eCommerce.Infrastructure.Repositories
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly DapperDbContext _dbContext;
         public UserRepository(DapperDbContext dbContext)
@@ -53,5 +53,24 @@ namespace eCommerce.Infrastructure.Repositories
             return user;
             
         }
+
+        public async Task<ApplicationUser?> GetUserByUserID(Guid? userId)
+        {
+            string query = "Select * from public.\"Users\" where \"UserID\" = @userId";
+            var param = new { userId = userId };
+            using var connection = _dbContext.DbConnection;
+            return await connection.QueryFirstOrDefaultAsync<ApplicationUser>(query,param);
+        }
+
+        public async Task<List<ApplicationUser>> GetAllUsers()
+        {
+            string query = "Select * from public.\"Users\"";
+            using var connection = _dbContext.DbConnection;
+            var result =  await connection.QueryAsync<ApplicationUser>(query);  
+            return result.ToList();
+
+        }
+
+        
     }
 }

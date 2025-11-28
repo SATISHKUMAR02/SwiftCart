@@ -1,0 +1,16 @@
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.deps.json
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.pdb
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.sourcelink.json
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\Business.450209FB.Up2Date
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSolution.OrdersService\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll

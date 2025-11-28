@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fccupMyuOqc=",
+  "dgSpecHash": "3f/bP3uowzU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSoultion.ProductsService\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\satis\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yy99mByy+Y8=",
+  "dgSpecHash": "I0T+h6eMJqg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\eCommerce.API.csproj",
+  "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.UserService\\eCommerce.API\\eCommerce.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\satis\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

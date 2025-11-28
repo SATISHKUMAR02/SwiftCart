@@ -16,14 +16,14 @@ namespace DataAccessLayer
 
             string connectionstringtemplate = configuration.GetConnectionString("MongoDB")!;
             string connectionstring = connectionstringtemplate.Replace("$MONGO_HOST", Environment.GetEnvironmentVariable("MONGO_HOST"))
-                .Replace("MONGO_PORT",Environment.GetEnvironmentVariable("MONGO_PORT"));
+                .Replace("$MONGO_PORT",Environment.GetEnvironmentVariable("MONGO_PORT"));
             services.AddSingleton<IMongoClient>(new MongoClient(connectionstring));
 
             services.AddScoped<IMongoDatabase>(
                 provider =>{
                 IMongoClient client = provider.GetRequiredService<IMongoClient>();
                     //using mongoclient object , we can access the database
-                    return client.GetDatabase("OrdersDatabase");
+                    return client.GetDatabase(Environment.GetEnvironmentVariable("MONGODB_DATABASE"));
                 
             });
             services.AddScoped<IOrderRepository, OrderRepository>();

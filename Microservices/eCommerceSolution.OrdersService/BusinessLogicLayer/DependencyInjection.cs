@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessLogicLayer.Mappers;
+using BusinessLogicLayer.ServiceContracts;
+using BusinessLogicLayer.Services;
 using BusinessLogicLayer.Validators;
 using FluentValidation;
 using Microsoft.Extensions.Configuration;
@@ -30,6 +32,7 @@ namespace BusinessLogicLayer
                 cfg.AddProfile<OrderToOrderResponseMappingProfile>();
                 cfg.AddProfile<OrderUpdateRequestToOrderMappingProfile>();
             });
+            services.AddScoped<IOrderService, OrderService>();
             return services;
         }
     }

@@ -11,5 +11,10 @@ namespace eCommerce.Core.ServiceContracts
     {
        Task<AuthenticationResponse?> Login(LoginRequest loginRequest); 
        Task<AuthenticationResponse?> Register(RegisterRequest registerRequest);
+
+        Task<UserDTO?> GetUserByUserId(Guid userId);
+
+        Task<List<UserDTO>> GetAllUsers();
     }
+
 }

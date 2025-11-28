@@ -27,6 +27,8 @@ RUN dotnet publish "./ProductsService.API.csproj" -c $BUILD_CONFIGURATION -o /ap
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENV MSSQL_HOST=sqlserver-container
+ENV MSSQL_HOST=SATISH\\SQLEXPRESS
 ENV MSSQL_PASSWORD=root@1234
+ENV MSSQL_DATABASE=ProductMicro
+ENV MSSQL_PORT=1433
 ENTRYPOINT ["dotnet", "ProductsService.API.dll"]

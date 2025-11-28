@@ -38,6 +38,10 @@ namespace ProductsService.API.Controllers
             try
             {
                 var product = await _productService.GetProductByCondition(temp => temp.ProductID == productID);
+                if (product == null) {
+
+                    return NotFound();
+                }
                 return Ok(product);
             }
             catch (Exception ex)

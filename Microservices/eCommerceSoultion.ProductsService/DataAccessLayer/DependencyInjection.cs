@@ -17,7 +17,9 @@ namespace DataAccessLayer
         {
             string connectinoStringTemplate = configuration.GetConnectionString("DefaultConnection")!;
             string connectionstring =  connectinoStringTemplate.Replace("$MSSQL_HOST", Environment.GetEnvironmentVariable("MSSQL_HOST"))
-                .Replace("$MSSQL_PASSWORD", Environment.GetEnvironmentVariable("MSSQL_PASSWORD"));
+                .Replace("$MSSQL_PASSWORD", Environment.GetEnvironmentVariable("MSSQL_PASSWORD"))
+                .Replace("$MSSQL_PORT", Environment.GetEnvironmentVariable("MSSQL_PORT"))
+                .Replace("$MSSQL_DATABASE", Environment.GetEnvironmentVariable("MSSQL_DATABASE"));
             services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(connectionstring,sqlServerOptions => sqlServerOptions.EnableRetryOnFailure(

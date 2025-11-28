@@ -14,9 +14,7 @@ namespace DataAccessLayer.RepositoryContracts
         Task<IEnumerable<Order?>> GetOrdersByCondition(FilterDefinition<Order> filter);
         Task <Order> GetOrderByCondition(FilterDefinition<Order> filter);
         Task<Order> AddOrder(Order order);
-        Task<bool>DeleteOrder(Guid orderID);
+        Task<bool>DeleteOperation(Guid orderID);
         Task<Order> UpdateOrder(Order order);
-
-
     }
 }

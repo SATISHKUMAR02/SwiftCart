@@ -16,12 +16,17 @@ namespace eCommerce.Infrastructure.DBContext
         public DapperDbContext(IConfiguration configuration)
         {
             _configuration = configuration;
-            string connectionStringtemplate = _configuration.GetConnectionString("PostgresConnection")!; // cannot be null
-            string connectionString = connectionStringtemplate.Replace("$POSTGRES_HOST", Environment.GetEnvironmentVariable("POSTGRES_HOST"))
-                .Replace("$POSTGRES_PASSWORD", Environment.GetEnvironmentVariable("POSTGRES_PASSWORD"));
-            dbConnection = new NpgsqlConnection(connectionString);
+            string connectionStringtemplate = _configuration.GetConnectionString("PostgresConnection")!;
+            string connectionString = connectionStringtemplate
+                .Replace("$POSTGRES_HOST", Environment.GetEnvironmentVariable("POSTGRES_HOST"))
+                .Replace("$POSTGRES_PORT", Environment.GetEnvironmentVariable("POSTGRES_PORT"))
+                .Replace("$POSTGRES_USER", Environment.GetEnvironmentVariable("POSTGRES_USER"))
+                .Replace("$POSTGRES_PASSWORD", Environment.GetEnvironmentVariable("POSTGRES_PASSWORD"))
+                .Replace("$POSTGRES_DATABASE", Environment.GetEnvironmentVariable("POSTGRES_DATABASE"));
 
+            dbConnection = new NpgsqlConnection(connectionString);
         }
+
         public IDbConnection DbConnection => dbConnection;
         
     }

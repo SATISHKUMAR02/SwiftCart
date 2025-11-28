@@ -20,13 +20,20 @@ namespace DataAccessLayer.Repositories
         }
         public async Task<Order> AddOrder(Order order)
         {
-            order.OrderID = new Guid();
+            order.OrderID = Guid.NewGuid();
+            order._id = order.OrderID;
+
+            foreach (OrderItem orderItem in order.OrderItems) {
+            
+                orderItem._id = Guid.NewGuid();
+            }
+
             await _orders.InsertOneAsync(order);
             return order;
 
         }
 
-        public async Task<bool> DeleteOrder(Guid orderID)
+        public async Task<bool> DeleteOperation(Guid orderID)
         {
             FilterDefinition<Order> filter =  Builders<Order>.Filter.Eq(temp=>temp.OrderID,orderID);
             Order? exorder = (Order?)await _orders.FindAsync(filter);
@@ -39,6 +46,8 @@ namespace DataAccessLayer.Repositories
 
 
         }
+
+       
         public async Task<Order> GetOrderByCondition(FilterDefinition<Order> filter)
         {
             return (await _orders.FindAsync(filter)).FirstOrDefault();
@@ -60,6 +69,7 @@ namespace DataAccessLayer.Repositories
             if (exorder == null) {
                 return null;
             }
+            order._id = exorder.OrderID; // i don;t need to update the existing orderID
             ReplaceOneResult replaceOneResult = await _orders.ReplaceOneAsync(filter, order);
             return order;
 

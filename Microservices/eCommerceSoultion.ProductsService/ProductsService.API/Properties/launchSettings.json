@@ -4,7 +4,11 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MSSQL_HOST": "SATISH\\SQLEXPRESS",
+        "MSSQL_PASSWORD": "root@1234",
+        "MSSQL_DATABASE": "ProductMicro",
+        "MSSQL_PORT": "1433"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5284"
@@ -13,7 +17,12 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MSSQL_HOST": "SATISH\\SQLEXPRESS",
+        "MSSQL_PASSWORD": "root@1234",
+        "MSSQL_DATABASE": "ProductMicro",
+        "MSSQL_PORT": "1433"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7077;http://localhost:5284",
@@ -23,7 +32,11 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MSSQL_HOST": "SATISH\\SQLEXPRESS",
+        "MSSQL_PASSWORD": "root@1234",
+        "MSSQL_DATABASE": "ProductMicro",
+        "MSSQL_PORT": "1433"
       }
     },
     "Container (Dockerfile)": {

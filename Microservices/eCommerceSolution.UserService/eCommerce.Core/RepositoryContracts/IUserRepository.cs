@@ -11,5 +11,9 @@ namespace eCommerce.Core.RepositoryContracts
     {
         Task<ApplicationUser?> AddUser(ApplicationUser user);
         Task<ApplicationUser?> GetUserByEmailAndPassword(string? Email , string? Password);
+
+        Task<ApplicationUser?> GetUserByUserID(Guid? userId);
+
+        Task<List<ApplicationUser>> GetAllUsers();
     }
 }

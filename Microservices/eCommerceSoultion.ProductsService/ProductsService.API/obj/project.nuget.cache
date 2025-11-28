@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WQm1j9CT0ds=",
+  "dgSpecHash": "tlzyV9AK8bM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\ProductsService.API.csproj",
+  "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSoultion.ProductsService\\ProductsService.API\\ProductsService.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\satis\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
