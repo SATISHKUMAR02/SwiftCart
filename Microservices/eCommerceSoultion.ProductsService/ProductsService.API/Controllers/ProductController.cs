@@ -32,7 +32,7 @@ namespace ProductsService.API.Controllers
             }
         }
         [HttpGet]
-        [Route("GetSinlgeProducts")]
+        [Route("GetSinlgeProducts/{productID:Guid}")]
         public async Task<ActionResult<ProductResponse>> GetSingleProduct(Guid productID)
         {
             try

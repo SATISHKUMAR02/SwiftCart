@@ -15,7 +15,7 @@ namespace DataAccessLayer.Entites
         public Guid _id { get; set; }
 
         [BsonRepresentation(MongoDB.Bson.BsonType.String)]
-        public Guid ProductID { get; set; }
+        public Guid ProductID { get; set; } // for each order item there will be a product Id
 
         [BsonRepresentation(MongoDB.Bson.BsonType.Double)]
         public decimal UnitPrice { get; set; }

@@ -4,6 +4,7 @@ using BusinessLogicLayer.HttpClients;
 using DataAccessLayer;
 using FluentValidation.AspNetCore;
 using OrdersMicroservice.API.Middlewares;
+using Polly;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,17 @@ builder.Services.AddHttpClient<UsersMicroserviceClient>(client =>
 {
 
     client.BaseAddress = new Uri($"http://{builder.Configuration["UsersMircorserviceName"]}:{builder.Configuration["UsersMicroservicePort"]}");
+
+
+}).AddPolicyHandler(
+    Policy.HandleResult<HttpResponseMessage>(r => r.!IsSuccessStatusCode).WaitAndRetry(retryCount: 5, sleepDurationProvider: retryAttempt => TimeSpan.FromSeconds(2)));
+
+
+
+builder.Services.AddHttpClient<ProductMicroserviceClient>(client =>
+{
+
+    client.BaseAddress = new Uri($"http://{builder.Configuration["ProductsMircorserviceName"]}:{builder.Configuration["ProductsMicroservicePort"]}");
 
 
 });
