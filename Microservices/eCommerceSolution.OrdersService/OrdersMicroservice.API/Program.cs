@@ -1,6 +1,7 @@
 
 using BusinessLogicLayer;
 using BusinessLogicLayer.HttpClients;
+using BusinessLogicLayer.Policies;
 using DataAccessLayer;
 using FluentValidation.AspNetCore;
 using OrdersMicroservice.API.Middlewares;
@@ -25,6 +26,8 @@ builder.Services.AddCors(options =>
     });
 });
 
+builder.Services.AddTransient<IUsersMicroservicePolicies, UsersMicroservicePolicies>();
+
 // communicating with users microservice
 builder.Services.AddHttpClient<UsersMicroserviceClient>(client =>
 {
@@ -32,8 +35,12 @@ builder.Services.AddHttpClient<UsersMicroserviceClient>(client =>
     client.BaseAddress = new Uri($"http://{builder.Configuration["UsersMircorserviceName"]}:{builder.Configuration["UsersMicroservicePort"]}");
 
 
-}).AddPolicyHandler(
-    Policy.HandleResult<HttpResponseMessage>(r => r.!IsSuccessStatusCode).WaitAndRetry(retryCount: 5, sleepDurationProvider: retryAttempt => TimeSpan.FromSeconds(2)));
+}).AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IUsersMicroservicePolicies>().GetCombinedPolicy());
+//    .AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IUsersMicroservicePolicies>().GetRetryPolicy())
+//.AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IUsersMicroservicePolicies>().GetCircuitBreakerPolicy())
+//.AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IUsersMicroservicePolicies>().GetTimeoutPolicy());
+
+
 
 
 
@@ -43,7 +50,8 @@ builder.Services.AddHttpClient<ProductMicroserviceClient>(client =>
     client.BaseAddress = new Uri($"http://{builder.Configuration["ProductsMircorserviceName"]}:{builder.Configuration["ProductsMicroservicePort"]}");
 
 
-});
+}).
+AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IProductMicroservicePolicies>().GetCombinedPolicy());
 
 
 var app = builder.Build();

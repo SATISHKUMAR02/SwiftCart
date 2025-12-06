@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dU29/K8gSWc=",
+  "dgSpecHash": "V44DE7EcDZw=",
   "success": true,
   "projectFilePath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,8 @@
     "C:\\Users\\satis\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\mongodb.bson\\3.5.0\\mongodb.bson.3.5.0.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\mongodb.driver\\3.5.0\\mongodb.driver.3.5.0.nupkg.sha512",
+    "C:\\Users\\satis\\.nuget\\packages\\polly\\8.6.5\\polly.8.6.5.nupkg.sha512",
+    "C:\\Users\\satis\\.nuget\\packages\\polly.core\\8.6.5\\polly.core.8.6.5.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\satis\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

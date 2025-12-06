@@ -33,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 538,
+          "DockedHeight": 569,
           "SelectedChildIndex": 8,
           "Children": [
             {
@@ -99,8 +99,7 @@
               "RelativeToolTip": "ProductsService.API\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAA6wC4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T12:34:02.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T12:34:02.485Z"
             },
             {
               "$type": "Document",
@@ -145,7 +144,7 @@
           ]
         },
         {
-          "DockedHeight": 108,
+          "DockedHeight": 77,
           "SelectedChildIndex": -1,
           "Children": [
             {
