@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Json;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using BusinessLogicLayer.DTO;
 using DnsClient.Internal;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
 using Polly.CircuitBreaker;
 
@@ -16,22 +18,42 @@ namespace BusinessLogicLayer.HttpClients
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<UsersMicroserviceClient> _logger;
+        private readonly IDistributedCache _distributedCache;
+
         
 
-        public UsersMicroserviceClient(HttpClient httpClient, ILogger<UsersMicroserviceClient> logger)
+        public UsersMicroserviceClient(HttpClient httpClient, ILogger<UsersMicroserviceClient> logger,IDistributedCache distributedCache)
         {
             _httpClient = httpClient;
             _logger = logger;
+            _distributedCache = distributedCache;
         }
         public async Task<UserDTO?> GetUserByUserID(Guid userID)
         {
 
             try
             {
+
+                // cache 
+                string cacheKey = $"user:{userID}";
+                string cachcedUser = await _distributedCache.GetStringAsync(cacheKey);
+                if (cachcedUser != null)
+                {
+                    UserDTO userFromCache = JsonSerializer.Deserialize<UserDTO>(cachcedUser);
+                    return userFromCache;
+                }
+
+
+
+
                 // the use of Polly will be reflected here as before the httpclient completes the request and 
                 // before passing it response , it will execute the code in Program.CS file where the polly 
                 // method will execute to verify if the other microservice might need to send another retry 
                 // request to the same service incase any error occured
+
+
+
+
                 HttpResponseMessage response = await _httpClient.GetAsync($"/api/Users/GetUserByID/{userID}");
 
                 if (!response.IsSuccessStatusCode)
@@ -68,6 +90,22 @@ namespace BusinessLogicLayer.HttpClients
                 {
                     throw new ArgumentException("Invalid User");
                 }
+                // adding the user to cache so that next 
+                // Key:product:{userID}
+                //value:{"UserName":"","Email":""} this is how the data is stored in cache
+
+                string userJson = JsonSerializer.Serialize(user);
+
+                //create Cache Options to specify the life to cache data in the application
+                DistributedCacheEntryOptions options = new DistributedCacheEntryOptions().SetAbsoluteExpiration(TimeSpan.FromMinutes(2))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(1));
+                string cacheKeyToWrite = $"user:{userID}";
+                await _distributedCache.SetStringAsync(cacheKeyToWrite, userJson, options);
+
+
+
+
+
                 return user;
             }
             catch (BrokenCircuitException ex) {

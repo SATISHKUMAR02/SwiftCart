@@ -13,6 +13,8 @@ services:
     - UsersMicroservicePort=9090
     - ProductsMircorserviceName=products-microservice
     - ProductsMicroservicePort=8080
+    - REDIS_HOST=redis
+    - REDIS_PORT=6739
     ports:
       - "7000:8080" 
     networks:
@@ -95,7 +97,15 @@ services:
      - .././Microservices-essentials/postgres-init:/docker-entrypoint-initdb.d     
     networks:
      - ecommerce-network
-
+  
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - C:/Users/satis/OneDrive/Desktop/SATISH/ASP .net learning/EcommerceMicroservices/redis-cache:/data
+    networks:
+      - ecommerce-network
 
     
 networks:

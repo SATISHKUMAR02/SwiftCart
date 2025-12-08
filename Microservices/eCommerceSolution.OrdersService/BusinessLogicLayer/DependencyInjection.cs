@@ -11,6 +11,8 @@ using FluentValidation;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
+
 namespace BusinessLogicLayer
 {
     public static class DependencyInjection
@@ -33,6 +35,10 @@ namespace BusinessLogicLayer
                 cfg.AddProfile<OrderUpdateRequestToOrderMappingProfile>();
             });
             services.AddScoped<IOrderService, OrderService>();
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = $"{configuration["REDIS_HOST"]}:{configuration["REDIS_PORT"]}";
+            });
             return services;
         }
     }
