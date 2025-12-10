@@ -34,7 +34,7 @@
         }
       }
     },
-    "/api/Product/GetSinlgeProducts": {
+    "/api/Product/GetSinlgeProducts/{productID}": {
       "get": {
         "tags": [
           "Product"
@@ -42,7 +42,8 @@
         "parameters": [
           {
             "name": "productID",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"

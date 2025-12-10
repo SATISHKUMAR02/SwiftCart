@@ -1,3 +1,120 @@
 {
+  "Routes": [
+    // ================================================================================== ORDERS MICROSERICE
+    { //GET ORDERS
+      "UpstreamPathTemplate": "/gateway/Orders",
+      "DownstreamPathTemplate": "/api/Orders/GetOrders",
 
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordersmicroservice.api",
+          "Port": 8080
+        },
+
+        // now it will be like , http:localhost:5000/gateway/Orders => mapped to "http://ordersmicroservice.api:8080/api/Orders"
+      ],
+
+
+      "UpstreamHttpMethod": [ "Get", "Post", "Options" ],
+      "UpStreamScheme": "http"
+
+
+
+    }, // for get orfers , similarly for all the routes we need to do this
+    {
+      // POST METHOD ADD ORDER
+      "UpstreamPathTemplate": "/gateway/Orders/AddOrder",
+      "DownstreamPathTemplate": "/api/Orders/CreateOrders",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordersmicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      //GET ORDER BY ORDER ID
+      "UpstreamPathTemplate": "/gateway/Orders/search/orderid/{orderId}",
+      "DownstreamPathTemplate": "/api/Orders/GetOrderByCondition/{orderId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordermicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      // Get Orders by Product Id
+      "UpstreamPathTemplate": "/gateway/Orders/search/productid/{productId}",
+      "DownstreamPathTemplate": "/api/Orders/GetOrdersbyProductId/{productId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordermicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      //GET ORDERS BY ORDER DATAE
+      "UpstreamPathTemplate": "/gateway/Orders/search/orderdate/{orderDate}",
+      "DownstreamPathTemplate": "/api/Orders/GetOrdersByDate/{orderDate}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordermicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      //UPDATE ORDERS BY ORDER DATAE
+      "UpstreamPathTemplate": "/gateway/Orders/search/updateorder/{orderId}",
+      "DownstreamPathTemplate": "/api/Orders/UpdateOrders/{orderId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordermicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Put", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    {
+
+      // DELETE ORDER
+      "UpstreamPathTemplate": "/gateway/Orders/search/DeleteOrder/{orderId}",
+      "DownstreamPathTemplate": "/api/Orders/DeleteOrder/{orderId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordermicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Delete", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    //========================================================================================= PRODUCTS MICROSERVICE
+    {
+      "UpstreamPathTemplate": "/gateway/Products/GetAllProducts",
+      "DownstreamPathTemplate": "/api/Product/DeleteOrder/{orderId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ordermicroservice.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Delete", "Options" ],
+      "UpStreamScheme": "http"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:4000"
+  }
 }

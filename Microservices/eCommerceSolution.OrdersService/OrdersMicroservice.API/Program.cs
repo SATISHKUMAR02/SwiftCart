@@ -27,6 +27,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddTransient<IUsersMicroservicePolicies, UsersMicroservicePolicies>();
+builder.Services.AddTransient<IProductMicroservicePolicies, ProductsMicroservicePolicies>();
 
 // communicating with users microservice
 builder.Services.AddHttpClient<UsersMicroserviceClient>(client =>
@@ -51,7 +52,7 @@ builder.Services.AddHttpClient<ProductMicroserviceClient>(client =>
 
 
 }).
-AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IProductMicroservicePolicies>().GetCombinedPolicy());
+AddPolicyHandler(builder.Services.BuildServiceProvider().GetRequiredService<IProductMicroservicePolicies>().GetCombinedPPolicy());
 
 
 var app = builder.Build();

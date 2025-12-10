@@ -70,7 +70,7 @@ namespace BusinessLogicLayer.Policies
             return policy;
         }
 
-        public IAsyncPolicy<HttpResponseMessage> GetCombinedPolicy()
+        public IAsyncPolicy<HttpResponseMessage> GetCombinedPPolicy()
         {
             var getFallbackPolicy = GetFallbackPolicy();
             var getBulkHeadPolicy = GetBulkHeadPolicy();

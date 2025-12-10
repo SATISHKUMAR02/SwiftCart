@@ -74,7 +74,7 @@
   {
     "ContainingType": "ProductsService.API.Controllers.ProductController",
     "Method": "GetSingleProduct",
-    "RelativePath": "api/Product/GetSinlgeProducts",
+    "RelativePath": "api/Product/GetSinlgeProducts/{productID}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -82,7 +82,7 @@
       {
         "Name": "productID",
         "Type": "System.Guid",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [

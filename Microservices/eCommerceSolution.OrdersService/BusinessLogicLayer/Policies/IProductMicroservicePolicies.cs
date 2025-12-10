@@ -12,6 +12,6 @@ namespace BusinessLogicLayer.Policies
         IAsyncPolicy<HttpResponseMessage> GetFallbackPolicy();
         IAsyncPolicy<HttpResponseMessage> GetBulkHeadPolicy();
 
-        IAsyncPolicy<HttpResponseMessage> GetCombinedPolicy();
+        IAsyncPolicy<HttpResponseMessage> GetCombinedPPolicy();
     }
 }
