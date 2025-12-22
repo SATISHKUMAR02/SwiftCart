@@ -102,17 +102,160 @@
     },
     //========================================================================================= PRODUCTS MICROSERVICE
     {
+      // GET ALL Products
       "UpstreamPathTemplate": "/gateway/Products/GetAllProducts",
-      "DownstreamPathTemplate": "/api/Product/DeleteOrder/{orderId}",
+      "DownstreamPathTemplate": "/api/Product/GetAllProducts",
       "DownstreamHostAndPorts": [
         {
-          "Host": "ordermicroservice.api",
+          "Host": "products-microservice",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get", "Options" ],
+      "UpStreamScheme": "http"
+    },
+
+    {
+      // GET Product By id
+      "UpstreamPathTemplate": "/gateway/Products/GetSingleProduct/{productId}",
+      "DownstreamPathTemplate": "/api/Product/GetSingleProducts/{productId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-microservice",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get", "Options" ],
+      "UpStreamScheme": "http",
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3, // circuit breaker
+        "DurationOfBreak": 100000,
+        "TimeoutValue": 5000
+
+      },
+      "RetryOptions": {
+        "RetryCount": 3,
+        "RetryOnServerError": true
+
+
+      },
+      "RateLimitOptions": {
+        "Limit": 3,
+        "Period": "1m",
+        "HttpStatusCode": 429,
+        "EnableRateLimiting": true,
+        "PeriodTimespan": 30 // after 30 seconds the rate limited is reset
+        // sometimes , some clients are needed to bypass these rate limits 
+        // they can be done using ClientWhitelist consist of arrays of clients who can bypass however,
+        // they need to be identified so we use another option called  [ClientIdHeader] to specify the schema of header
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 30,
+        "Region": "Orders"
+      }, // this will decrease the response time 
+      
+    },
+    {
+      // Create Product
+      "UpstreamPathTemplate": "/gateway/Products/CreateProduct",
+      "DownstreamPathTemplate": "/api/Product/CreateProduct",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-microservice",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      // Update Products
+      "UpstreamPathTemplate": "/gateway/Products/UpdateProduct/{productId}",
+      "DownstreamPathTemplate": "/api/Product/UpdateProduct/{productId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-microservice",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "Put", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      // Delete Product
+      "UpstreamPathTemplate": "/gateway/Products/DeleteProduct",
+      "DownstreamPathTemplate": "/api/Product/DeleteProduct/{productId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-microservice",
           "Port": 8080
         }
       ],
       "UpstreamHttpMethod": [ "Delete", "Options" ],
       "UpStreamScheme": "http"
-    }
+    },
+    // ========================================================================================= Users Microservice
+
+    {
+      // Login 
+      "UpstreamPathTemplate": "/gateway/Users/Auth/Login",
+      "DownstreamPathTemplate": "/api/Auth/Login",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-microservice",
+          "Port": 9090
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      // Register
+      "UpstreamPathTemplate": "/gateway/Users/Auth/Register",
+      "DownstreamPathTemplate": "/api/Auth/Register",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-microservice",
+          "Port": 9090
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post", "Options" ],
+      "UpStreamScheme": "http"
+    },
+    {
+      // Get User By Id
+      "UpstreamPathTemplate": "/gateway/Users/GetUserById/{userId}",
+      "DownstreamPathTemplate": "/api/Users/GetUserByID/{userId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-microservice",
+          "Port": 9090
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpStreamScheme": "http",
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 30,
+        "TimeoutValue": 5000
+      },
+      "RetryOptions": {
+        "RetryCount": 3,
+        "RetryOnServerError": true
+      },
+      "RateLimitOptions": {
+        "Limit": 3,
+        "Period": "1m",
+        "HttpStatusCode": 429,
+        "EnableRateLimiting": true,
+        "PeriodTimespan": 30
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 30,
+        "Region": "Users"
+      }
+    },
+    
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:4000"

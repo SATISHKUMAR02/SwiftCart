@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70621CBD-15DA-49A7-896F-F67CC03F8461}|OrdersMicroservice.API\\OrdersMicroservice.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\ordersmicroservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70621CBD-15DA-49A7-896F-F67CC03F8461}|OrdersMicroservice.API\\OrdersMicroservice.API.csproj|solutionrelative:ordersmicroservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\businesslogiclayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3DD03C0-DB73-42D0-9805-31D5EB7673B6}|APIGateway\\APIGateway.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3DD03C0-DB73-42D0-9805-31D5EB7673B6}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\businesslogiclayer\\policies\\productsmicroservicepolicies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\policies\\productsmicroservicepolicies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\businesslogiclayer\\policies\\iproductmicroservicepolicies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\policies\\iproductmicroservicepolicies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ED69102-D053-4852-8B1F-89A29BD462D7}|docker-compose.dcproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7ED69102-D053-4852-8B1F-89A29BD462D7}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3DD03C0-DB73-42D0-9805-31D5EB7673B6}|APIGateway\\APIGateway.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A3DD03C0-DB73-42D0-9805-31D5EB7673B6}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3DD03C0-DB73-42D0-9805-31D5EB7673B6}|APIGateway\\APIGateway.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A3DD03C0-DB73-42D0-9805-31D5EB7673B6}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70621CBD-15DA-49A7-896F-F67CC03F8461}|OrdersMicroservice.API\\OrdersMicroservice.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\ordersmicroservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70621CBD-15DA-49A7-896F-F67CC03F8461}|OrdersMicroservice.API\\OrdersMicroservice.API.csproj|solutionrelative:ordersmicroservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\businesslogiclayer\\servicecontracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\servicecontracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\businesslogiclayer\\httpclients\\usersmicroserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{711D1946-82A6-496A-A5ED-D8143648E45B}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\httpclients\\usersmicroserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70621CBD-15DA-49A7-896F-F67CC03F8461}|OrdersMicroservice.API\\OrdersMicroservice.API.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\ordersmicroservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70621CBD-15DA-49A7-896F-F67CC03F8461}|OrdersMicroservice.API\\OrdersMicroservice.API.csproj|solutionrelative:ordersmicroservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D68A6A5C-11F7-4408-9DAF-5DBC291A419B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\satis\\onedrive\\desktop\\satish\\asp .net learning\\ecommercemicroservices\\microservices\\ecommercesolution.ordersservice\\dataaccesslayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,8 +33,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 451,
-          "SelectedChildIndex": 11,
+          "DockedHeight": 569,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,157 +62,65 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\DependencyInjection.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DependencyInjection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:47:16.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductMicroservicePolicies.cs",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\Policies\\IProductMicroservicePolicies.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Policies\\IProductMicroservicePolicies.cs",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\Policies\\IProductMicroservicePolicies.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Policies\\IProductMicroservicePolicies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:44:03.822Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductsMicroservicePolicies.cs",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\Policies\\ProductsMicroservicePolicies.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Policies\\ProductsMicroservicePolicies.cs",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\Policies\\ProductsMicroservicePolicies.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Policies\\ProductsMicroservicePolicies.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAA7wEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:43:59.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\OrdersMicroservice.API\\Program.cs",
-              "RelativeDocumentMoniker": "OrdersMicroservice.API\\Program.cs",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\OrdersMicroservice.API\\Program.cs",
-              "RelativeToolTip": "OrdersMicroservice.API\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA2wBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:39:42.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\ServiceContracts\\IOrderService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\ServiceContracts\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\ServiceContracts\\IOrderService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\ServiceContracts\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:15:45.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\OrdersMicroservice.API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "OrdersMicroservice.API\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\OrdersMicroservice.API\\Controllers\\OrderController.cs",
               "RelativeToolTip": "OrdersMicroservice.API\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAA5wGQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA5wG0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:00:48.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T18:00:48.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ocelot.json",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\APIGateway\\ocelot.json",
               "RelativeDocumentMoniker": "APIGateway\\ocelot.json",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\APIGateway\\ocelot.json",
               "RelativeToolTip": "APIGateway\\ocelot.json",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwGkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwHwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-09T17:56:35.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAHUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-12-09T17:55:39.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\APIGateway\\Dockerfile",
-              "RelativeDocumentMoniker": "APIGateway\\Dockerfile",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\APIGateway\\Dockerfile",
-              "RelativeToolTip": "APIGateway\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-08T06:49:43.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\APIGateway\\Program.cs",
-              "RelativeDocumentMoniker": "APIGateway\\Program.cs",
-              "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\APIGateway\\Program.cs",
-              "RelativeToolTip": "APIGateway\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T06:49:39.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "UsersMicroserviceClient.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\HttpClients\\UsersMicroserviceClient.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\HttpClients\\UsersMicroserviceClient.cs",
               "ToolTip": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\HttpClients\\UsersMicroserviceClient.cs",
               "RelativeToolTip": "BusinessLogicLayer\\HttpClients\\UsersMicroserviceClient.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T13:54:38.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\DataAccessLayer\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DependencyInjection.cs",
@@ -252,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "OrderResponse.cs",
               "DocumentMoniker": "C:\\Users\\satis\\OneDrive\\Desktop\\SATISH\\ASP .net learning\\EcommerceMicroservices\\Microservices\\eCommerceSolution.OrdersService\\BusinessLogicLayer\\DTO\\OrderResponse.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\DTO\\OrderResponse.cs",
@@ -265,7 +145,7 @@
           ]
         },
         {
-          "DockedHeight": 195,
+          "DockedHeight": 77,
           "SelectedChildIndex": -1,
           "Children": [
             {

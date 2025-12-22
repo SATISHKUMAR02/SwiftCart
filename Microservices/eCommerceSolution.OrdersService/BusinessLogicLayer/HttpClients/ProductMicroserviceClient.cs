@@ -41,7 +41,8 @@ namespace BusinessLogicLayer.HttpClients
                     return productFromCache;
                 }
 
-                HttpResponseMessage response = await _httpClient.GetAsync($"/api/Product/GetSinlgeProducts/{productId}");
+                HttpResponseMessage response = await _httpClient.GetAsync($"/gateway/Products/GetSingleProduct/{productId}");
+                // sending a request through API Gateway than sending it to product microservice directly
                 if (!response.IsSuccessStatusCode)
 
                     if(response.StatusCode == System.Net.HttpStatusCode.ServiceUnavailable)

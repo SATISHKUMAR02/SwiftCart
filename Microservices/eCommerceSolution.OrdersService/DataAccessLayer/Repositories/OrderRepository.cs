@@ -35,19 +35,16 @@ namespace DataAccessLayer.Repositories
 
         public async Task<bool> DeleteOperation(Guid orderID)
         {
-            FilterDefinition<Order> filter =  Builders<Order>.Filter.Eq(temp=>temp.OrderID,orderID);
-            Order? exorder = (Order?)await _orders.FindAsync(filter);
-            if (exorder == null)
-            {
-                return false;
-            }
-            DeleteResult deleteResult =await _orders.DeleteOneAsync(filter);
-            return true;
+            FilterDefinition<Order> filter = Builders<Order>.Filter.Eq(temp => temp.OrderID, orderID);
 
+            Order? exorder = await _orders.Find(filter).FirstOrDefaultAsync();
+            if (exorder == null) return false;  
 
+            DeleteResult deleteResult = await _orders.DeleteOneAsync(filter);
+            return true;  // Success (assumes delete executed)
         }
 
-       
+
         public async Task<Order> GetOrderByCondition(FilterDefinition<Order> filter)
         {
             return (await _orders.FindAsync(filter)).FirstOrDefault();

@@ -196,3 +196,4 @@ C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSoultion.ProductsService\ProductsService.API\obj\Debug\net8.0\ProductsService.API.pdb
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSoultion.ProductsService\ProductsService.API\obj\Debug\net8.0\ProductsService.API.genruntimeconfig.cache
 C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSoultion.ProductsService\ProductsService.API\obj\Debug\net8.0\ref\ProductsService.API.dll
+C:\Users\satis\OneDrive\Desktop\SATISH\ASP .net learning\EcommerceMicroservices\Microservices\eCommerceSoultion.ProductsService\ProductsService.API\bin\Debug\net8.0\RabbitMQ.Client.dll

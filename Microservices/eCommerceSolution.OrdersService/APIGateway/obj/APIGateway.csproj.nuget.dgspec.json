@@ -57,6 +57,10 @@
             "Ocelot": {
               "target": "Package",
               "version": "[24.0.1, )"
+            },
+            "Ocelot.Provider.Polly": {
+              "target": "Package",
+              "version": "[24.0.0, )"
             }
           },
           "imports": [

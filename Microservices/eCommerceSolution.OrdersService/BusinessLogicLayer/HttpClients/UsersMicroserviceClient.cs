@@ -54,7 +54,8 @@ namespace BusinessLogicLayer.HttpClients
 
 
 
-                HttpResponseMessage response = await _httpClient.GetAsync($"/api/Users/GetUserByID/{userID}");
+                HttpResponseMessage response = await _httpClient.GetAsync($"/gateway/Users/GetUserById/{userID}");
+                // sending request to API Gateway than to sending it to the user microservice
 
                 if (!response.IsSuccessStatusCode)
                 {
